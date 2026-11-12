@@ -233,7 +233,7 @@ def main():
 
     # Login Screen
     if not st.session_state['logged_in']:
-        st.warning("🔒 FOMOKILLER Astro Terminal: Kripya apni Authorized Gmail ID aur Access Password dalein.")
+        st.warning("🔒 Astro Terminal: Kripya apni Authorized Gmail ID aur Access Password dalein.")
         with st.form("login_form"):
             username = st.text_input("Username (Gmail ID)")
             password = st.text_input("Password", type="password")
