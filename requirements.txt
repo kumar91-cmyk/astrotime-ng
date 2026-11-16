@@ -1,3 +1,3 @@
-error: Unexpected '<', expected '-c', '-e', '-r'
-or the start of a requirement:
-requirements.txt:1:1
+streamlit
+pytz
+pyswisseph
