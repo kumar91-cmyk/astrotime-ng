@@ -276,5 +276,18 @@ def main():
         except Exception:
             st.error("⚠️ Kripya Date YYYY-MM-DD format me dalein.")
 
+import streamlit as st
+
+st.set_page_config(
+    page_title="XAUUSD Smart Time",
+    page_icon="⏰"
+)
+
+st.title("⏰ XAUUSD SMART TIME")
+
+st.info("Welcome to XAUUSD Smart Time")
+
+st.write("Your Smart Time Analysis Dashboard")
+
 if __name__ == "__main__":
     main()
