@@ -1,5 +1,5 @@
 streamlit
-pytz
 pyswisseph
+pytz
 pandas
 astral
